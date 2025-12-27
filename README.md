@@ -4,14 +4,7 @@
 基于Electron的桌面应用，用于管理一对一雅思课程的学生课表、教师排班和总课表。
 
 ## 功能特性
-- ✅ 学生课表管理
-- ✅ 教师排班表管理
-- ✅ 一周总课表查看
-- ✅ 三表联动同步更新
-- ✅ 课时统计自动计算
-- ✅ 课表导出为PNG（样式完全还原模板）
-- ✅ 本地数据库存储（Better-SQLite3）
-- ✅ 零配置开箱即用
+手动排课，自动排课，三表联动同步更新，课表可导出为PNG，本地数据库存储（Better-SQLite3），开箱即用
 
 ## 安装和运行
 
@@ -19,18 +12,18 @@
 
 1. 安装依赖
 ```bash
-npm install
+yarn install
 ```
 
 2. 启动开发服务器
 ```bash
-npm run electron:dev
+yarn start
 ```
 
 ### 生产打包
 
 ```bash
-npm run electron:build
+yarn electron:build
 ```
 
 打包后的安装程序位于 `dist-electron` 目录。
@@ -61,14 +54,6 @@ schedule-system/
 └── resources/         # 应用资源
 ```
 
-## 使用说明
-
-1. 添加学生和教师
-2. 为学生分配各科目的授课教师
-3. 在课表中点击单元格添加课程
-4. 课表自动同步更新
-5. 导出PNG格式课表
-
 ## 数据存储
 
 数据存储在用户目录：
@@ -78,3 +63,4 @@ schedule-system/
 
 ## 许可证
 MIT
+
