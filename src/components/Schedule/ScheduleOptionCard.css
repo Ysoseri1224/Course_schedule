@@ -1,0 +1,129 @@
+.schedule-option-card {
+  margin-bottom: 16px;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+}
+
+.schedule-option-card:hover {
+  border-color: #1890ff;
+  box-shadow: 0 2px 8px rgba(24, 144, 255, 0.2);
+}
+
+.schedule-summary {
+  margin-bottom: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.summary-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px;
+  background: #f5f5f5;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.summary-subject {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.summary-type {
+  color: #666;
+  margin-left: 4px;
+}
+
+.summary-hours {
+  color: #999;
+  margin-left: 4px;
+}
+
+.summary-slots {
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.slot-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #e6f7ff;
+  border: 1px solid #91d5ff;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #0050b3;
+}
+
+.visual-schedule-preview {
+  overflow-x: auto;
+}
+
+.preview-schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #333;
+  font-family: 'Microsoft YaHei', sans-serif;
+  background: white;
+}
+
+.preview-th-corner {
+  background: #A6BDDB;
+  color: #000;
+  padding: 12px;
+  font-weight: bold;
+  border: 1px solid #333;
+  font-family: 'Times New Roman', serif;
+}
+
+.preview-th-day {
+  background: #A6BDDB;
+  color: #000;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #333;
+  font-weight: bold;
+  min-width: 100px;
+  font-family: 'Times New Roman', serif;
+  font-size: 14px;
+}
+
+.preview-td-time {
+  background: #A6BDDB;
+  color: #000;
+  padding: 8px;
+  border: 1px solid #333;
+  min-width: 60px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 12px;
+}
+
+.preview-td-cell {
+  border: 1px solid #333;
+  padding: 8px 4px;
+  text-align: center;
+  min-height: 50px;
+  vertical-align: middle;
+  background: white;
+  font-size: 12px;
+}
+
+.preview-lunch-break {
+  background: #D6E4F5;
+}
+
+.preview-lunch-cell {
+  background: #D6E4F5;
+  border: 1px solid #333;
+  padding: 6px;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  font-size: 12px;
+  font-family: 'Times New Roman', serif;
+}
